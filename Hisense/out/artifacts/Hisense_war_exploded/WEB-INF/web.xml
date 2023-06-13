@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+           version="3.0">
+
+    <!-- 配置session域保存的名 -->
+    <context-param>
+        <param-name>userSessionKey</param-name>
+        <param-value>user</param-value>
+    </context-param>
+    <!--若为登录需重定向的页面，也变为可配置的-->
+    <context-param>
+        <param-name>redirectPage</param-name>
+        <param-value>/WEB-INF/client/login.jsp</param-value>
+    </context-param>
+    <!--不需要拦截(或检查)的页面的URL列表-->
+    <context-param>
+        <param-name>uncheckUrls</param-name>
+        <param-value>/static/*,/WEB-INF/admin/*,/WEB-INF/client/detail.jsp,/WEB-INF/client/home.jsp,/WEB-INF/client/login.jsp,/WEB-INF/client/register.jsp</param-value>
+    </context-param>
+
+
+    <!--测试是否登录，从xml文件中获取拦截的页面，和不拦截的-->
+    <filter>
+        <filter-name>checkFilter</filter-name>
+        <filter-class>cn.hisense.exception.CheckFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>checkFilter</filter-name>
+        <url-pattern>/WEB-INF/client/*</url-pattern>
+        <!--指定过滤哪种请求方式,默认request,可指定多种-->
+        <dispatcher>FORWARD</dispatcher>
+        <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
+</web-app>

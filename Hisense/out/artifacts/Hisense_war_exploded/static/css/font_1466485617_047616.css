@@ -1,0 +1,55 @@
+
+@font-face {font-family: "icon-pokeball";
+  src: url('../fonts/font_1466485616_8937788.eot'); /* IE9*/
+  src: url('../fonts/font_1466485616_8937788.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/b7e2c4794a6b4ceab73294b5812c1a06.woff') format('woff'), /* chrome,firefox */
+    url('../fonts/font_1466485616_8937788.ttf') format('truetype'), /* chrome,firefox,opera,Safari, Android, iOS 4.2+*/
+  url('../fonts/font_1466485616_8937788.svg#icon-pokeball') format('svg'); /* iOS 4.1- */
+  src: url('../fonts/font_1466485616_8937788.eot')\0; /* ie8 fix */
+
+}
+
+.icon-pokeball {
+  font-family:"icon-pokeball" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-pokeball-gou:before { content: "\e622"; }
+.icon-pokeball-home:before { content: "\e61c"; }
+.icon-pokeball-left:before { content: "\e611"; }
+.icon-pokeball-cart:before { content: "\e61d"; }
+.icon-pokeball-loading:before { content: "\e621"; }
+.icon-pokeball-folder:before { content: "\e625"; }
+.icon-pokeball-mine:before { content: "\e61e"; }
+.icon-pokeball-right:before { content: "\e612"; }
+.icon-pokeball-time:before { content: "\e60e"; }
+.icon-pokeball-plus:before { content: "\e613"; }
+.icon-pokeball-upload:before { content: "\e60f"; }
+.icon-pokeball-search:before { content: "\e61b"; }
+.icon-pokeball-del:before { content: "\e620"; }
+.icon-pokeball-lajixiang:before { content: "\e614"; }
+.icon-pokeball-date:before { content: "\e610"; }
+.icon-pokeball-categorize:before { content: "\e61f"; }
+.icon-pokeball-close:before { content: "\e600"; }
+.icon-pokeball-checkboxunchecked:before { content: "\e601"; }
+.icon-pokeball-checked:before { content: "\e602"; }
+.icon-pokeball-indeterminate:before { content: "\e603"; }
+.icon-pokeball-notify-success:before { content: "\e604"; }
+.icon-pokeball-notify-info:before { content: "\e605"; }
+.icon-pokeball-notify-error:before { content: "\e606"; }
+.icon-pokeball-notify-warning:before { content: "\e607"; }
+.icon-pokeball-error:before { content: "\e608"; }
+.icon-pokeball-info:before { content: "\e609"; }
+.icon-pokeball-success:before { content: "\e60a"; }
+.icon-pokeball-warning:before { content: "\e60b"; }
+.icon-pokeball-prev:before { content: "\e60c"; }
+.icon-pokeball-next:before { content: "\e60d"; }
+.icon-pokeball-upload1:before { content: "\e615"; }
+.icon-pokeball-xuanzhuan:before { content: "\e616"; }
+.icon-pokeball-chuizhifanzhuan:before { content: "\e617"; }
+.icon-pokeball-shuipingfanzhuan:before { content: "\e618"; }
+.icon-pokeball-anonymous-iconfont:before { content: "\e619"; }
+.icon-pokeball-anonymous-iconfont1:before { content: "\e61a"; }

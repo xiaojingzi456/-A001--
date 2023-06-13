@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	border: 0;
+}
+
+input,
+button,
+textarea {
+	border: 0;
+	/* 清楚边框 */
+	outline: none;
+	/* 鼠标放上去会有蓝边,把它去掉 取消轮廓边框*/
+}
+
+a {
+	text-decoration: none;
+}
+
+/* 地址栏 */
+#city {
+	margin-top: -12px;
+	width: 500px;
+	display: inline-block;
+	background-color: #F7F7F7;
+	zoom: 1;
+	color: #1e1e1e;
+	border: 0;
+	/* 清楚边框 */
+	outline: none;
+	/* 鼠标放上去会有蓝边,把它去掉 取消轮廓边框*/
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+
+.content .cutwords {
+	height: 50px;
+}
+.lanrenzhijia {
+	width: 550px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.jqzoom {
+	float: left;
+	border: none;
+	position: relative;
+	padding: 0px;
+	cursor: pointer;
+	margin: 0px;
+	display: block;
+}
+
+.jqzoom img {
+	background: url(http://www.lanrenzhijia.com/demo/images/loading.gif) no-repeat center center;
+}
+
+.zoomdiv {
+	z-index: 100;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 550px;
+	height: 550px;
+	background: #ffffff;
+	border: 1px solid #CCCCCC;
+	display: none;
+	text-align: center;
+	overflow: hidden;
+}
+
+.jqZoomPup {
+	z-index: 10;
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #aaa;
+	background: #ffffff
+		/*url(../images/zoom.png) 50% center no-repeat*/
+	;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter: alpha(Opacity=50);
+}
+
+/*图片小图预览列表*/
+.spec-preview {
+	width: 550px;
+	height: 550px;
+	border: 1px solid #DFDFDF;
+}
+
+.spec-scroll {
+	clear: both;
+	margin-top: 5px;
+	width: 352px;
+}
+
+.spec-scroll .prev {
+	float: left;
+	margin-right: 4px;
+}
+
+.spec-scroll .next {
+	float: right;
+}
+
+.spec-scroll .prev,
+.spec-scroll .next {
+	display: block;
+	font-family: "宋体";
+	text-align: center;
+	width: 10px;
+	height: 54px;
+	line-height: 54px;
+	border: 1px solid #CCC;
+	background: #EBEBEB;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.spec-scroll .items {
+	float: left;
+	position: relative;
+	width: 322px;
+	height: 56px;
+	overflow: hidden;
+}
+
+.spec-scroll .items ul {
+	position: absolute;
+	width: 100%;
+	height: 56px;
+}
+
+.spec-scroll .items ul li {
+	float: left;
+	width: 88px;
+	height: 88px;
+	text-align: center;
+}
+
+.spec-scroll .items ul li img {
+	border: 1px solid #CCC;
+	padding: 2px;
+	width: 50px;
+	height: 50px;
+}
+
+.spec-scroll .items ul li img:hover {
+	border: 2px solid #FF6600;
+	padding: 1px;
+}
+
+* {
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+html {
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+.addressDiv {
+	width: 464px;
+	height: 24px;
+	margin: 0 auto;
+	border: 0;
+	position: relative;
+	z-index: 10;
+}
+
+.input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 457px;
+	margin: 0;
+	padding-left: 5px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	border: 1px solid #c9cacb;
+}
+
+s {
+	position: absolute;
+	top: 1px;
+	right: 0;
+	width: 32px;
+	height: 32px;
+	background: url("../image/details/cart-success.png") no-repeat;
+}
+#addressState{
+	padding: 0px 10px;
+}
+
+._citys {
+	width: 450px;
+	display: inline-block;
+	border: 2px solid #eee;
+	padding: 5px;
+	position: relative;
+	background-color: #fff;
+}
+
+._citys span {
+	color: #05920a;
+	height: 15px;
+	width: 15px;
+	line-height: 15px;
+	text-align: center;
+	border-radius: 3px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	border: 1px solid #05920a;
+	cursor: pointer;
+}
+
+._citys0 {
+	width: 95%;
+	height: 34px;
+	line-height: 34px;
+	display: inline-block;
+	border-bottom: 2px solid #05920a;
+	padding: 0px 5px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 6px;
+}
+
+._citys0 li {
+	display: inline-block;
+	line-height: 34px;
+	font-size: 15px;
+	color: #888;
+	width: 80px;
+	text-align: center;
+	cursor: pointer;
+}
+
+._citys1 {
+	width: 100%;
+	display: inline-block;
+	padding: 10px 0;
+}
+
+._citys1 a {
+	width: 83px;
+	height: 35px;
+	display: inline-block;
+	background-color: #f5f5f5;
+	color: #666;
+	margin-left: 6px;
+	margin-top: 3px;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 12px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+._citys1 a:hover {
+	color: #fff;
+	background-color: #05920a;
+}
+
+.AreaS {
+	background-color: #05920a !important;
+	color: #fff !important;
+}

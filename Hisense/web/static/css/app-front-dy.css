@@ -1,0 +1,12 @@
+@charset "UTF-8";
+div.item-detail .item-detail-left .image-manage .item-carousel-wrap .images {
+    padding-top: 0;
+    margin-top: 0;
+    position: absolute;
+    z-index: 100000;
+}
+.carousel .show{
+
+    width: 467px;
+    height: 88px;
+}

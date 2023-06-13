@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>登录</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="360-site-verification" content="8394049c1fd212bdb3dcd85d05f25338" />
+<meta name="sogou_site_verification" content="ipw5BodbR5"/>
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//assets.shop.hisense.com/assets/images/other-images/favicon.ico" type="image/x-icon" rel="shortcut icon">
+<meta name="baidu-site-verification" content="P7Xr6eyWnw" />
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1468400228_1677577.css" />
+<link rel="stylesheet" href="//at.alicdn.com/t/font_72064_8d6mr7huygmn29.css" />
+<script src="//at.alicdn.com/t/font_844587_sj0qb1xzzl.js"></script>
+<link rel="stylesheet" href="//at.alicdn.com/t/font_844587_sj0qb1xzzl.css" />
+<link rel="stylesheet" href="//assets.shop.hisense.com/assets/styles/eevee-layout-677c65.css">
+<link rel="stylesheet" href="//assets.shop.hisense.com/assets/styles/vendor-b0dfc7.css">
+<link rel="stylesheet" href="//assets.shop.hisense.com/assets/styles/app-back-28bddb.css">
+<script>
+      if(window.NodeList&&!NodeList.prototype.forEach){NodeList.prototype.forEach=Array.prototype.forEach};
+      !function(e,t,n,s,a,c,i){e[a]=e[a]||function(){(e[a].q=e[a].q||[]).push(arguments)},c=t.createElement(n),i=t.getElementsByTagName(n)[0],c.async=1,c.src=s,i.parentNode.insertBefore(c,i)}(window,document,"script","//static.terminus.io/ta.js","$ta");
+      $ta('start',{ udata: { uid: 0 }, ak: '0585a09fd5c5443abb17f5b7c5b46a2e' , url: '//analytics.shop.hisense.com/collect' })
+    </script>
+<input type="hidden" id="assetsHref" value="//assets.shop.hisense.com">
+<script>(function(){if(!window._smq){window._smq={push:function(){}}}})()</script>
+<script>!(function(a,b,c,d,e,f){var g="",h=a.sessionStorage,i="__admaster_ta_param__",j="tmDataLayer"!==d?"&dl="+d:"";
+    if(a[f]={},a[d]=a[d]||[],a[d].push({startTime:+new Date,event:"tm.js"}),h){var k=a.location.search,
+    l=new RegExp("[?&]"+i+"=(.*?)(&|#|$)").exec(k)||[];l[1]&&h.setItem(i,l[1]),l=h.getItem(i),
+    l&&(g="&p="+l+"&t="+ +new Date)}var m=b.createElement(c),n=b.getElementsByTagName(c)[0];m.src="//tag.cdnmaster.cn/tmjs/tm.js?id="+e+j+g,
+    m.async=!0,n.parentNode.insertBefore(m,n)})(window,document,"script","tmDataLayer","TM-776674","admaster_tm");</script>
+</head>
+<body data-base="" data-user-type="" class=" " data-env="production">
+<!--[if lt IE 7]>
+        <p class="browsehappy">您正使用<strong>过时</strong>的浏览器，因此您可能体验不到最好的效果,请点击<a href="http://browsehappy.com/">这里</a> 去升级您的浏览器</p>
+    <![endif]-->
+<!--[if lt IE 8]>
+      <script src="http://cdn.staticfile.org/json2/20121008/json2.js"></script>
+    <![endif]-->
+<!--[if lt IE 9]>
+      <script src="http://cdn.staticfile.org/html5shiv/3.7.2/html5shiv.js"></script>
+    <![endif]-->
+<div class='auth-container js-comp eve-component' data-comp-path='common/auth_container'> <div id="auth-div" data-auth="null"></div>
+</div>
+<div class="main-login">
+<div class="login-container-title">
+<a href="/">
+<img src="/assets/images/other-images/index-logo-b39b6c.png" alt="">
+</a>
+<span class="title-text">登录</span>
+</div>
+<div class='js-comp eve-component' data-comp-name='登陆组件' data-comp-path='common/login'><div class="main-login-back" style="">
+<div class="outer-login">
+<div class="login-container-body">
+<div class="component-login">
+<div class="link-scan-code js-link-scan-code">
+<i class="iconfont icon-erweima js-zhanghao-i "></i>
+</div>
+<div class="tab-container">
+<div class="tab" data-type="switchable">
+<ul class="tab-navs clearfix">
+<li class="active left-text" data-role="nav"><a href="javascript:;">账户登录</a></li>
+<li class="right-text" data-role="nav"><a href="javascript:;">快捷登录</a></li>
+</ul>
+<div class="alert-text"></div>
+<div class="tab-contents clearfix password-login">
+<div class="tab-content" data-role="content">
+<form class="form form-aligned user-login-form user-common-form" data-site-type="7">
+<fieldset>
+<div class="name-password-group">
+<div class="control-group focus input-wrap" id="login-name">
+<span class="inner-input-left-icon">账号/邮箱/手机号</span>
+<input type="hidden" name="target" value="http://backsource.shop.hisense.com/assets/styles/mCSB_buttons.png">
+<input type="hidden" class="isCompany" name="isCompany" value>
+<input id="login-type" type="hidden" name="type" value="1">
+<input id="loginId" type="text" name="loginBy" value="" required autocomplete="new-password"/>
+<span class="note-error-empty note-icon ">
+<i class="icon-pokeball icon-pokeball-error"></i>
+<span>请输入正确手机号</span>
+</span>
+</div>
+<div class="control-group focus input-wrap" id="login-password">
+<span class="inner-input-left-icon">密码</span>
+<input id="password" type="password" name="password" pattern="^[\s\S]{6,20}$" required autocomplete="new-password"/>
+<i class="inner-input-right-icon iconfont icon-ic-visible js-toggle-password"></i>
+<span class="note-error note-icon ">
+<i class="icon-pokeball icon-pokeball-error"></i>
+<span>请输入6-20位数字大小写字母组合密码</span>
+</span>
+<span class="note-error-empty note-icon ">
+<i class="icon-pokeball icon-pokeball-error"></i>
+<span>密码不可为空</span>
+</span>
+</div>
+<div class="control-group focus input-wrap picture-code hide">
+<span class="inner-input-left-icon">图片验证码</span>
+<input class="verify-code" type="text" name='captcha' value="" maxlength="4" autocomplete="off">
+<span class="note-error-empty note-icon ">
+<i class="icon-pokeball icon-pokeball-error"></i>
+<span>图片验证码不可为空</span>
+</span>
+<img src="/api/user/captcha" class="verify-code js-verify-code" alt="看不清楚？点击重新获取验证码" title="看不清楚？点击重新获取验证码">
+</div>
+<div class="control-group keep-group clearfix">
+<span class="free-login js-free-login">
+<input type="checkbox" name="freeDay" class="input-checkbox" value="30">30天免登录
+</span>
+<a class="keep pull-right register-a js-register-a">免费注册</a>
+<a class="keep pull-right forget-password-a">忘记密码?</a>
+<a class="keeped pull-right toreg hide js-register-a">&nbsp;&nbsp;去注册！</a>
+</div>
+</div>
+<div class="error-wall"><ul></ul></div>
+<div class="control-group" id="login-submit">
+<input type="submit" class="btn btn-primary" disabled value="立即登录">
+</div>
+</fieldset>
+</form>
+<div class="input-login-footer">
+<div class="label-tip">可选择第三方登录方式</div>
+<a href="/usercenter/auth/wechat" class="weixin-triple" onclick="_smq.push(['custom', '登陆页', '账号登陆', '微信登陆']);">
+<i class="iconfont icon-weixin "></i>
+</a>
+<a href="/usercenter/auth/alipay" onclick="_smq.push(['custom', '登陆页', '账号登陆', '支付宝登陆']);">
+<i class="iconfont icon-zhifubao "></i>
+</a>
+</div>
+</div>
+</div>
+<div class="tab-contents clearfix password mobile-login hide">
+<div class="tab-content" data-role="content">
+<form class="form form-aligned user-mobile-form user-common-form" data-site-type="7" autocomplete="off">
+<fieldset>
+<div class="name-password-group">
+<div class="control-group focus mobile-group">
+<span class="inner-input-left-icon">手机号码</span>
+<input type="hidden" class="isCompany" name="isCompany">
+<input id="mobile-phone" type="text" name="mobile" pattern="(?:^1[3456789]|^9[289]|^6[12456789])\d{9}$" required autocomplete="off">
+<span class="note-error note-icon ">
+<i class="icon-pokeball icon-pokeball-error"></i>
+<span>请输入正确的手机号</span>
+</span>
+<span class="note-error-empty note-icon ">
+<i class="icon-pokeball icon-pokeball-error"></i>
+<span>手机号不可为空</span>
+</span>
+</div>
+<div class="control-group focus picture-code">
+<span class="inner-input-left-icon">短信验证码</span>
+<input id="verification-code" type="text" name="code" required autocomplete="off">
+<button type="button" class="btn get-code" data-delay="60" disabled="disabled">获取验证码</button>
+<span class="note-error-empty note-icon ">
+<i class="icon-pokeball icon-pokeball-error"></i>
+<span>短信验证码不可为空</span>
+</span>
+</div>
+<div class="control-group keep-group clearfix">
+<span class="free-login js-free-login">
+<input type="checkbox" name="freeDay" class="input-checkbox" value="30">30天免登录
+</span>
+<a class="keep pull-right register-a js-register-a">免费注册</a>
+<a class="keep pull-right forget-password-a">忘记密码?</a>
+</div>
+</div>
+<div class="control-group submit-group">
+<div class="controls">
+<input class="btn btn-large btn-primary submit" type="submit" disabled="disabled" value="立即登录">
+</div>
+</div>
+</fieldset>
+</form>
+<div class="input-login-footer">
+<div class="label-tip">可选择第三方登录方式</div>
+<a href="/usercenter/auth/wechat" class="weixin-triple" onclick="_smq.push(['custom', '登陆页', '账号登陆', '微信登陆']);">
+<i class="iconfont icon-weixin "></i>
+</a>
+<a href="/usercenter/auth/alipay" onclick="_smq.push(['custom', '登陆页', '账号登陆', '支付宝登陆']);">
+<i class="iconfont icon-zhifubao "></i>
+</a>
+</div>
+</div>
+</div>
+<div class="tab-contents clearfix qrcode-login hide">
+<div class="tab-content" data-role="content">
+<div class="scan-login-container">
+<div class="scan-login-body">
+<div class="scan-qr-expire">
+<div class="expire-tips">二维码已经过期</div>
+<a href="javascript:;" class="js-expire-operation">
+<i class="iconfont icon-refresh"></i>
+<span>刷新二维码</span>
+</a>
+</div>
+<div class="scan-get-qr-error">
+<span>获取二维码失败</span>
+</div>
+<div id="qrcode"></div>
+<div class="scan-tip">
+<div>打开<span>海信商城APP-个人中心</span>，扫一扫登录</div>
+</div>
+</div>
+<div class="scan-login-footer">
+<a href="/register">免费注册</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='js-comp component-right-bottom-nav eve-component' data-comp-path='common/right_bottom_nav'><ul class="crbm-ul" data-user="null" class="">
+<li title="购物车">
+<a href="/buyer/cart" onclick="_smq.push(['custom', '全站', '右侧悬浮栏', '购物车']);">
+<i class="iconfont icon-ic-cart"></i>
+<div class="bottom-tip">购物车</div>
+<div class="cart-num single js-bottom-cart-num hide">0</div>
+</a>
+</li>
+<li class="js-open-kefu" title="客服">
+<a href="javascript:;" onclick="_smq.push(['custom', '全站', '右侧悬浮栏', '在线客服']);">
+<i class="iconfont icon-GroupCopyx-"></i>
+<div class="bottom-tip">在线客服</div>
+</a>
+</li>
+<li class="new-user-gift js-new-user-gift" title="新人礼">
+</li>
+<li class="js-qrcode-li qrcode-li" title="二维码">
+<a href="javascript:;">
+<i class="iconfont icon-ic-logo-mobile"></i>
+<div class="bottom-tip">移动商城</div>
+</a>
+<div class="item-qrcode-container">
+<div class="item-qrcode-title">
+<div>扫一扫</div>
+<div>使用手机购买</div>
+</div>
+<div class="item-qrcode-wrapper">
+<div class="js-qrcode-content">
+</div>
+</div>
+</div>
+</li>
+<li class="js-jump-footprint" title="足迹">
+<a href="javascript:;" onclick="_smq.push(['custom', '全站', '右侧悬浮栏', '浏览记录']);">
+<i class="iconfont icon-ic-footprint"></i>
+<div class="bottom-tip">足迹</div>
+</a>
+</li>
+<li class="js-return-top return-top" title="返回顶部">
+<a href="javascript:;">
+<i class="iconfont icon-huidaodingbujiantou"></i>
+<div class="bottom-tip">返回顶部</div>
+</a>
+</li>
+</ul>
+</div> <script src="//assets.shop.hisense.com/assets/scripts/bluebird-5f381f.js"></script>
+<script src="//assets.shop.hisense.com/assets/scripts/vendor-174f5d.js"></script>
+<!--[if lt IE 9]>
+      <script src="http://cdn.staticfile.org/jquery-placeholder/2.0.8/jquery.placeholder.js"></script>
+    <![endif]-->
+<script src="//assets.shop.hisense.com/assets/scripts/templates-back-484aca.js"></script>
+<script src="//assets.shop.hisense.com/assets/scripts/app-back-aa5a4e.js"></script>
+<script language="javascript" type="text/javascript">
+      var NTKF_PARAM = {
+        siteid: "kf_9694",		             //企业ID，为固定值，必填
+        settingid: "kf_9694_1448276429098",	 //接待组ID，为固定值，必填
+        uid: "",		                 //用户ID，未登录可以为空，但不能给null，uid赋予的值在显示到小能客户端上
+        uname: "",		     //用户名，未登录可以为空，但不能给null，uname赋予的值显示到小能客户端上
+        isvip: "",                           //是否为vip用户，0代表非会员，1代表会员，取值显示到小能客户端上
+        userlevel: "",		                 //网站自定义会员级别，0-N，可根据选择判断，取值显示到小能客户端上
+        erpparam: ""                       //erpparam为erp功能的扩展字段，可选，购买erp功能后用于erp功能集成
+      }
+    </script>
+<script src="//dl.ntalker.com/js/xn6/ntkfstat.js?siteid=kf_9694" charset="utf-8" defer async></script>
+<script>
+      window.i18nEnv = {"lng":"zh-CN","ns":["all_mix"],"defaultNS":"all_mix"};
+      i18nIniter({
+        cache: { enable: false },
+        resourceFormat: 'json',
+        callback: function () {
+          require("app")();
+        }
+      });
+    </script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c92ff3a47b1855874d71f3beb5345364";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
