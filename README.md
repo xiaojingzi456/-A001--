@@ -14,7 +14,7 @@ mysql5.7
 
 后台账户   admin
 
-密码   admin      
+密码      admin  
 
 
 
